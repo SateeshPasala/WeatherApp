@@ -10,5 +10,5 @@
 import Foundation
 
 struct Api {
-    static let key = "e286a159a583b9251688d27bebc25783"
+    static let key = "6b740393892f95819620ba09d75de570"
 }
