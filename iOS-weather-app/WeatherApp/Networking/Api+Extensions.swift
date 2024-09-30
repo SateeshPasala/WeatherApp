@@ -7,7 +7,7 @@
 import Foundation
 
 extension Api {
-    static let baseUrl = "https://api.openweathermap.org/data/2.5/"
+    static let baseUrl = "https://api.openweathermap.org/data/3.0/"
     
     static func getUrlFor(lat: Double, lon: Double) -> String {
         return "\(baseUrl)onecall?lat=\(lat)&lon=\(lon)&exclude=minutely&appid=\(key)&units=metric"
